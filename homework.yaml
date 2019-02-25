@@ -193,7 +193,7 @@
   tasks:
     - name: Deploy App to Alpha Corp
       script: /root/openshift-homework-40hrs/scripts/alpha-corp-cicd.sh
-    - name: Deploy App to Alpha Corp
+    - name: Deploy App to Beta Corp
       script: /root/openshift-homework-40hrs/scripts/beta-corp-cicd.sh
     - name: Deploy App to Common
       script: /root/openshift-homework-40hrs/scripts/nodejs_mongo_app.sh
