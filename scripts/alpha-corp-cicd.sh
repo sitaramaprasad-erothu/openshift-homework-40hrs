@@ -37,7 +37,7 @@ oc project alpha-cicd-dev
 
 oc new-app jenkins-persistent -n alpha-cicd-dev
 # Deploy Demo
-oc new-app -n alpha-cicd-dev -f /root/openshift-homework/yaml/alpha-corp-cicd-template.yaml
+oc new-app -n alpha-cicd-dev -f /root/openshift-homework-40hrs/yaml/alpha-corp-cicd-template.yaml
 
 # Sleep for 5 minutes and then Start Pipeline
 sleep 300
