@@ -1,4 +1,4 @@
-= OpenShift Container Platform - Advanced Deployment - Homework for Sitaramaprasad Erothu
+= OpenShift Container Platform - Advanced Deployment - Homework(40 hrs) for Sitaramaprasad Erothu
 Websites for GWAR and Hatebreed
 
 Use the files in this repo to guide you on your way to creating
