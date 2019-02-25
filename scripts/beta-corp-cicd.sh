@@ -37,7 +37,7 @@ oc project beta-cicd-dev
 
 oc new-app jenkins-persistent
 # Deploy Demo
-oc new-app -n beta-cicd-dev -f /root/openshift-homework/yaml/beta-corp-cicd-template.yaml
+oc new-app -n beta-cicd-dev -f /root/openshift-homework-40hrs/yaml/beta-corp-cicd-template.yaml
 
 # Sleep for 5 minutes and then Start Pipeline
 sleep 300
