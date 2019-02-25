@@ -9,13 +9,13 @@
   hosts: localhost
   tasks:
     - name: Generate Inventory script
-      shell: cp -f /root/openshift-homework/hosts /etc/ansible/hosts
+      shell: cp -f /root/openshift-homework-40hrs/hosts /etc/ansible/hosts
 
 - name: Generate Inventory Hosts File
   hosts: localhost
   tasks:
     - name: Generate Inventory script
-      script: /root/openshift-homework/scripts/generate_inventory.sh
+      script: /root/openshift-homework-40hrs/scripts/generate_inventory.sh
 
 - name: Prepare GUID environment variable across all hosts
   hosts: all
@@ -81,7 +81,7 @@
   hosts: localhost
   tasks:
     - name: Deploy App to Common
-      script: /root/openshift-homework/scripts/nodejs_mongo_app.sh
+      script: /root/openshift-homework-40hrs/scripts/nodejs_mongo_app.sh
     - name: Waiting for nodejs to start
       shell: sleep 300
 ##  ....
